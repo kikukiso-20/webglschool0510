@@ -1,7 +1,7 @@
 // モジュールの読み込み
-import * as THREE from '../lib/three.module.js';
+import * as THREE from './lib/three.module.js';
 // マウスで描画結果に干渉できる様にする為に、OrbitControlsというクラスをモジュール化して読み込み
-import { OrbitControls } from '../lib/OrbitControls.js';
+import { OrbitControls } from './lib/OrbitControls.js';
 
 
 //DOM の準備ができたら実行する（HTMLの読み込みとDOMツリー作成が終わったら中の関数を実行する）
